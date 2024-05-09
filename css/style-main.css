@@ -30,3 +30,47 @@
     width: 30%;
     background-color: blue;
 }
+
+/* PLAN CARD > ENTERPRISE */
+#enterprise{
+    margin-top: 5%;
+    /* DEBUG*/
+    border: 1px solid red;
+    min-height: 200px;
+}
+
+#enterprise :first-child{
+    width: 100%;
+    /* DEBUG */
+    border: 1px solid red; 
+    min-height: 20px;
+
+}
+
+
+/* PARTNER DROP BOX */
+#partner-box{
+    margin-top: 10%;
+
+    /* flex */
+    display: flex;
+    align-items: center;
+    /* DEBUG */
+    width: 100%;
+    min-height: 400px;
+    border: 1px solid green;
+}
+
+#partner-box :first-child{
+    width: 60%;
+    /* DEBUG */
+    border: 1px solid black;
+    min-height: 400px;
+}
+
+#partner-box :nth-child(2){
+    width: 40%;
+    /* DEBUG */
+    border: 1px solid blue;
+    min-height: 400px;
+}
