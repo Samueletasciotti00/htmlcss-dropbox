@@ -1,0 +1,32 @@
+/* section business setting */
+#head-business{
+    width: 70%;
+    /* DEBUG */
+    min-height: 50px;
+    background-color: gray;
+    border: 1px solid black;
+}
+
+#select-business{
+    width: 50%;
+    margin-top: 10%;
+    /* DEBUG */
+    min-height: 50px;
+    background-color: gray;
+    border: 1px solid black;
+}
+
+/* PLAN CARDS */
+#plan-cards{
+
+    margin-top: 10%;
+    /* flex */
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    min-height: 500px;
+    width: 30%;
+    background-color: blue;
+}
