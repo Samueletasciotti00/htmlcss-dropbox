@@ -1,20 +1,10 @@
 /* section business setting */
-#head-business{
-    width: 70%;
-    /* DEBUG */
-    min-height: 50px;
-    background-color: gray;
-    border: 1px solid black;
-}
+#head-business h1{
+    font-size: 30px;
+    margin-bottom: 10%;
+}   
 
-#select-business{
-    width: 50%;
-    margin-top: 10%;
-    /* DEBUG */
-    min-height: 50px;
-    background-color: gray;
-    border: 1px solid black;
-}
+
 
 /* PLAN CARDS */
 #plan-cards{
@@ -28,7 +18,45 @@
 .card{
     min-height: 500px;
     width: 30%;
-    background-color: blue;
+    /* DEBUG */
+    border: 1px solid black;
+}
+
+.card h2, h4, span, hr{
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+.or-link{
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+/* ADVENTAGE OF CARD */
+.advantage{
+    margin-top: 10%;
+    margin-left: 20px;
+}
+
+.adv-button{
+    text-align: center;
+    margin-top: 10%;
+}
+
+.adv-button button{
+    width: 225px;
+    height: 46px;
+    background-color: #0d2481;
+    color: #fff;
+    border: none;
+    font-size: 15px;
+}
+
+
+.type{
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
 }
 
 /* PLAN CARD > ENTERPRISE */
@@ -47,6 +75,9 @@
 
 }
 
+.card ul li{
+    list-style: none;
+}
 
 /* PARTNER DROP BOX */
 #partner-box{
