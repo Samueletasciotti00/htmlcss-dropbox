@@ -154,3 +154,20 @@
     flex-direction: column;
     gap: 30px;
 }
+
+/* FOOTER */
+footer{
+    width: 100%;
+    background-color: black;
+    /* DEBUG */
+        height: 400px;
+}
+
+#footer-container{
+    width: 80%;
+    margin: 100px auto 0 auto;
+    /* DEBUG */
+    border: 1px solid #fff;
+    height: 300px;
+    
+}
