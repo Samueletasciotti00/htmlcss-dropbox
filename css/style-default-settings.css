@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: open sans;
 }
 
 /* container settings */
@@ -10,7 +11,21 @@
     width: 60%;
     margin: 0 auto;
     padding-top: 10%;
-    /* DEBUG */
-    min-height: 500px;
-    border: 1px solid burlywood;
 }   
+
+
+/* BUTTON SETTINGS */
+button{
+    background-color: #045eef;
+    color: #fff;
+    border: none;
+    font-size: 15px;
+    width: 225px;
+    height: 46px;
+}
+
+#gray-btn{
+    background-color: #fff;
+    color: gray;
+    border: 1px solid black;
+}
