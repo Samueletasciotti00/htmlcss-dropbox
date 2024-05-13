@@ -4,12 +4,21 @@
     margin-bottom: 10%;
 }   
 
+
 /* PLAN CARDS */
 #plan-cards{
     margin-top: 10%;
     /* flex */
     display: flex;
     justify-content: space-between;
+}
+
+/* FLEX CARDS */
+.flex-cards{
+    /* flex */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .margin-card{
@@ -20,10 +29,15 @@
 .card{
     width: 30%;
     border: 1px solid black;
+    min-height: 900px;
 }
 
-.card ul li{
+.card ul {
     list-style: none;
+    /* flex */
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 
 .or-link{
@@ -223,7 +237,6 @@
 }
 
 .element{
-    border: 1px solid red;
     padding: 100px;
 }
 
@@ -262,6 +275,15 @@
     width: 50%;
 }
 
+#interaction div h1{
+    color: #900C3F;
+    font-size: 25px;
+}
+
+#interaction button{
+    background-color: #fff;
+    color: black;
+}
 
 /* FAQ CONTENT */
 #faq-container{

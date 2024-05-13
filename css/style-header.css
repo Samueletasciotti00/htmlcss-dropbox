@@ -1,4 +1,4 @@
-/* HEADER SETTINGS */
+/* xER SETTINGS */
 nav{
     font-size: 20px;
     height: 70px;
@@ -28,7 +28,7 @@ header main{
 }
 
 #big-nav{
-    width: 50%;
+    width: 60%;
 }
 
 /* IMMAGE LOGO NAV SETTINGS */
@@ -47,7 +47,8 @@ header main{
 
 /* TITOL */
 #titol h1{
-    font-size: 55px;  
+    font-size: 55px;
+    padding-top: 10%;  
 }
 
 /* PARAGRAPH WHIT BUTTON */
