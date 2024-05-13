@@ -21,6 +21,7 @@ header main{
 .upper-menu{
     width: 33%;
     height: 100%;
+    font-size: 12px;
     /* flex */
     display: flex;
     justify-content:center;
@@ -47,8 +48,8 @@ header main{
 
 /* TITOL */
 #titol h1{
-    font-size: 65px;
-    padding-top: 8%;  
+    font-size: 50px;
+    padding-top: 20px;  
 }
 
 /* PARAGRAPH WHIT BUTTON */
@@ -90,7 +91,7 @@ header main{
 #content{
     width: 100%; 
     height: 70%;
-    margin-top: 15%;
+    margin-top: 10%;
      /*flex  */
     display: flex;
     justify-content: center;  
