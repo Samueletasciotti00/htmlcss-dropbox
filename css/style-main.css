@@ -218,16 +218,25 @@
 
 /* <!-- COLLABORATION --> */
 
+/* The color of immage of grid is on the default css */
+
 #grid-container{
     margin-top: 10%;
     display: grid;
     grid-template-columns: repeat(6, 2fr);
-    border: 1px solid green;
     max-width: 100%;
 }
 
+/* GRID CENTER SETTINGS */
 #center-grid{
     background-color: #f1ede3;
+    
+}
+
+#center-grid img{
+    filter: brightness(0) invert(0);
+    width: 50%;
+    
 }
 
 /* Desegnit */

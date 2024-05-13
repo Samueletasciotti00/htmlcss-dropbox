@@ -29,7 +29,8 @@ button{
     color: gray;
     border: 1px solid black;
 }
-ul li{
-    list-style-position: outside;
-}
 
+/* COLOR OG IMMAGE OF GRID */
+#grid-container img{
+    filter: brightness(0) invert(1);
+ }
