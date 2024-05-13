@@ -13,36 +13,50 @@
     justify-content: space-between;
 }
 
-/* FLEX CARDS */
-.flex-cards{
-    /* flex */
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-.margin-card{
-    margin-left: 15px;
-    margin-top: 20px;
-}
-
+/* CARD PAY/MONTH TYPE SETTINGS */
 .card{
     width: 30%;
     border: 1px solid black;
     min-height: 900px;
 }
 
+/* List style remover */
 .card ul {
     list-style: none;
-    /* flex */
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
 }
 
-.or-link{
-    margin-top: 10%;
-    margin-left: 5%;
+/* Margin of List of cards */
+.card ul li{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    max-width: 85%;
+}
+
+/* Margin of upper menu list */
+.margin-titol-card{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.margin-titol-card h2{
+    margin-bottom: 20px;
+}
+
+.margin-titol-card span{
+    margin-top: 20px;
+}
+
+/* Link of card settings */
+
+.margin-link-card{
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.margin-link-card hr{
+    margin-left: 20px;
+    margin: 30px 0;
 }
 
 /* ADVENTAGE OF CARD */
@@ -191,6 +205,10 @@
 /* <!-- 500.000 TEAM D-B BUSINESS --> */
 #ft-titol{
     margin-top: 10%;
+}
+
+#ft-titol h1{
+    font-size: 35px;
 }
 
 #ft-link{
